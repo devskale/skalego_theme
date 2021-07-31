@@ -6,9 +6,10 @@
         <h6 style="font-family: Helvetica">{{ .Site.Params.logo.text2 }}</h6> -->
 
         <img
+          href="{{ .Site.BaseURL | absURL }}"
           class="img-responsive"
-          src="img/logo-skale.png"
-          srcset="img/logo-skale.png 1x, img/logo-skale@2x.png 2x"
+          src="{{ .Site.BaseURL | absURL }}/img/logo-skale.png"
+          srcset="{{ .Site.BaseURL | absURL }}/img/logo-skale.png 1x, {{ .Site.BaseURL | absURL }}/img/logo-skale@2x.png 2x"
           alt="Header Logo"
         />
       </a>
