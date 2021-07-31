@@ -1,0 +1,21 @@
+# theme.toml template for a Hugo theme
+# See https://github.com/gohugoio/hugoThemes#themetoml for an example
+
+name = "Newthemehugo"
+license = "MIT"
+licenselink = "https://github.com/yourname/yourtheme/blob/master/LICENSE"
+description = "A free Hugo Theme by skale.io: Modern, Fast, Fresh and of course responsive."
+homepage = "https:/skale.io/"
+tags = ['personal-website', 'personal', 'portfolio', 'single-page', 'one-page', 'fast', 'typography', 'customizable', 'mobile', 'resume', 'fresh', 'modern', 'flexbox', 'hugo-theme', 'hugo', 'bootstrap', 'responsive', 'clean', 'simple', 'creative', 'contact form', 'light', 'white', 'custom-design', 'minimal', 'minimalistic', 'minimalist', 'portfolio', 'google tag manager', 'google analytics', 'customizable', 'flexbox', 'starter', 'theme']
+features = ['responsive', 'bootstrap']
+min_version = "0.41.0"
+
+[author]
+  name = "Hans Waldherr"
+  homepage = "https://skale.io"
+
+# If porting an existing theme
+[original]
+  name = ""
+  homepage = ""
+  repo = ""
