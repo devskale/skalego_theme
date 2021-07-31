@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!-- inject:../components/baseHead/baseHeadStart.html -->
 <!DOCTYPE html>
 <html lang="en">
@@ -49,3 +50,56 @@
   </body>
 </html>
 <!-- endinject -->
+=======
+<!-- inject:../components/baseHead/baseHeadStart.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {{ partial "head.html" . }} {{ partial "head_custom.html" . }}
+  </head>
+
+  <body>
+    {{ partial "header.html" . }}
+
+    <section class="section rad-animation-group pb-0" id="about">
+      <div class="container rad-fade-down">
+        <div class="row d-flex flex-column-reverse flex-md-row">
+          <div class="col-12 col-md-10 my-auto my-auto">
+
+              <!-- Imprint-->
+              <h2>{{ .Site.Data.tos.imprint }}</h2>
+              <p class="lead">
+                <!-- {{ .Site.Data.homepage.about.content | safeHTML }}-->
+                <p class="lead">
+                  {{ .Site.Data.tos.imprintcontent | safeHTML }}
+                </p>
+              </p>
+              <!-- Terms-->
+
+              <h2>{{ .Site.Data.tos.terms }}</h2>
+              <p class="lead">
+                <!-- {{ .Site.Data.homepage.about.content | safeHTML }}-->
+                <p class="lead">
+                  {{ .Site.Data.tos.termscontent | safeHTML }}
+                </p>
+              </p>
+              <!-- Datenschutz-->
+
+              <h2>{{ .Site.Data.tos.data }}</h2>
+              <p class="lead">
+                <!-- {{ .Site.Data.homepage.about.content | safeHTML }}-->
+                <p class="lead">
+                  {{ .Site.Data.tos.datacontent | safeHTML }}
+                </p>
+              </p>
+      
+          </div>
+        </div>
+      </div>
+    </section>
+
+    {{ partial "footer.html" . }} {{ partial "base-foot.html" . }}
+  </body>
+</html>
+<!-- endinject -->
+>>>>>>> dd38227a23cd7fc43a4ad56a8963801ab7e94849
